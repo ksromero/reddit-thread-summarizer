@@ -32,7 +32,7 @@ def openai_create(prompt):
     return response["choices"][0]["text"]
 
 def get_comments_summary_chunk(chunk, summary_queue):
-    prompt = "In overall point of view give a brief summary of comments: " + " ".join(chunk)
+    prompt = f"""Summarize this in English from a general perspective:\n\n"{" ".join(chunk)}"""
     response = openai_create(prompt)
     summary_queue.put(response)
 
@@ -54,6 +54,8 @@ def get_comments_summary(comments):
     while not summary_queue.empty():
         summary += summary_queue.get()
 
+    summary = summary.strip()
+
     return summary
 
 def get_comments(thread):
@@ -62,7 +64,7 @@ def get_comments(thread):
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
         comment_futures = []
-        for comment in thread.comments.list():
+        for comment in thread.comments:
             future = executor.submit(check_text_moderation, comment.body)
             comment_futures.append((comment.body, future))
         for comment_body, future in comment_futures:
@@ -71,12 +73,8 @@ def get_comments(thread):
                 comments.append(comment_body)
 
     summary = get_comments_summary(comments)
-
-    print(summary)
-    overall_summary = openai_create(
-        f""" In overall point of view give a brief summary of comments \n "{summary}" """
-    )
-
+    overall_summary = openai_create(f'"{summary}"\nSummarize the above information, highlighting the most important ideas expressed in the comments of Reddit users:').strip()
+ 
     return comments, overall_summary
 
 def process_submission(submission):

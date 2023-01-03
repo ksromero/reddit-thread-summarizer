@@ -78,11 +78,12 @@ Sample Output:
     "content_body": "I’m talking anything from trap to boom bap and everything in between.\n\nwhat are the beats where you just gotta nod your fucking head?",
     "created_at": "Wed, 01 May 2019 00:03:21 GMT",
     "num_of_comments": 42,
-    "overall_summary": "\n\nIn summary, this comment is a celebration of the wide variety 
-        of hip-hop music available, from classic hits to lesser-known beats. 
-        It highlights some of the most popular and hard-hitting hip-hop songs and 
-        artists of the early 2000s, such as Big Pun, Dr. Dre, Mobb Deep, MOP, and 
-        Devilish Trio.",
+    "overall_summary": "This list of hip hop beats includes classic
+        tracks such as \"Shook Ones, Pt II\" by Mobb Deep, \"Ante Up\" by MOP,
+        and \"Wicked\" by Ice Cube, as well as more modern tracks like
+        \"My Choppa Hate Niggas\" by 21 Savage and \"Neon Guts\" by Lil Uzi Vert.
+        Other notable songs include \"Deep Cover\" by Dr. Dre, \"X Is Coming\" by DMX,
+        \"Beware\" by Big Pun, \"Lose Yourself\" by Eminem, and \"Victory\" by Puff Daddy.",
     "title": "Hardest beats of all time?",
     "upvotes": 17
 }
@@ -113,48 +114,56 @@ Sample Output:
         "content_body": "Even in the new season Emily continues to be such a cliché of an ignorant US-American. I’m not even French but her entitlement leaves me speechless sometimes. Interrupts a Black DJ to make her play a shitty song by her friend? No biggie. Bringing up her French class after food poisoning a client at work? Sure thing. Using the gay co workers a props? Emily got this!\n\nAnd she Never had a single bureaucracy problem? LOL. I don’t even want to hate watch it.",
         "created_at": "Tue, 27 Dec 2022 20:45:58 GMT",
         "num_of_comments": 258,
-        "overall_summary": "\n\nOverall, the comments on Emily in Paris are mixed, with some 
-            people enjoying the show for its lightheartedness and escapist nature, 
-            while others find it too cliche and unrealistic. There is also criticism of the show's
-            lack of realism, with some noting that the characters' fashion choices are unrealistic. 
-            Additionally, some people find the show's cultural imperialism and ignorance to be
-            problematic. There is also discussion about the DJ's race and the bechdel test, 
-            as well as whether race or gender should be relevant to the show. 
-            In conclusion, people have different opinions about the show, but it is 
-            generally seen as a light and entertaining show.",
+        "overall_summary": "Reddit users have mixed opinions on the Netflix show 
+            Emily in Paris. Some find it entertaining and fashionable, while others find 
+            it too cliche and unrealistic. Despite the criticism, the show has been renewed 
+            for multiple seasons and is still popular with viewers. It is a light, 
+            shallow show with extravagant outfits and has been criticized for its 
+            unrealistic portrayal of relationships and lack of diversity.",
         "title": "[DISCUSSION] Emily in Paris is SO bad",
-        "upvotes": 1140
+        "upvotes": 1141
     },
     {
         "content_body": "Like Fight Club, The Illusionist, Midsommar… something that takes you aback with brilliance.\n\nEdit: thank you all so much, so many suggestions I haven’t seen. It’ll get me through being stuck at home. Y’all rock my fellow movie people.\n\nAlso sorry I can’t respond, I didn’t expect this many! I’m writing down each one I haven’t seen there are a lot!",
         "created_at": "Thu, 29 Dec 2022 23:29:29 GMT",
         "num_of_comments": 520,
-        "overall_summary": "\n\nOverall, the comments suggest that there are a variety of 
-            movies with unexpected and mind-bending endings that have been enjoyed by viewers. 
-            These movies range from classic thrillers to more recent films, as well as horror films,
-            psychological thrillers, and foreign films. People have shared their experiences 
-            with the movies, such as having the endings spoiled for them, and shared their 
-            opinions on the movies. They have also recommended other movies with twist endings, 
-            such as The Merchant and the Alchemist’s Gate.",
+        "overall_summary": "Reddit users have recommended a variety of movies with 
+            unexpected twists and turns, ranging from classic thrillers to horror films 
+            and comedies. These movies include The Sixth Sense, The Prestige,
+            Donnie Darko, Mr. Robot, Memento, The Changeling, Uncut Gems, The Departed, 
+            The Crying Game, Oculus, Fracture, The Village, Saint Maud, Shutter Island, 
+            The Mist, Prisoners, Layer Cake, Identity, Cabin in the Woods, Behind Her Eyes, 
+            Se7en, Get Out, Saw, Perfect Blue, All About Lily Chou Chou, Bodies Bodies Bodies,
+            Primal Fear, Arrival, Where the Crawfish Sing, Awake, The Machinist, 
+            American History X, Pan's Labyrinth, Mystic River, Side Effects, The Orphanage,
+            Colossus: The Forbin Project, Planet of the Apes, Soylent Green, American Psycho,
+            Bandersnatch, Vanilla Sky, Requiem of a Dream, Fat Girl, The Vanishing,
+            The Art of Self Defense, 400 Days, Dark City, The Usual Suspects, Archive,
+            Oldboy, A Cure for Wellness, Once Upon a Time in Hollywood, Snowpiercer,
+            The Barbarian, The Signal, Unbreakable, Split, Time Crimes, Predestination,
+            Primer, Red Notice, Laura, The Power of the Dog, Lucky Number Sleven,
+            Possessor, Orphan, Inception, Dodgeball, Remember Me, Samaritan 2022, 
+            The Departed, Black Butterfly, The Empty Man, The Mist Triangle, 
+            The Rental, Clueless, Glass Onion, Dead Again, Wild Things, The Boy, 
+            Housebound, Seven Psychopaths, The Grey, Come True, Enemy, Citizen Kane, 
+            Barbarians, From Dusk Till Dawn, Inside Number 9, The Girl with All the Gifts,
+            Extinction, The Guest, You're Next, Life, 10 Cloverfield Lane,
+            I'm Thinking of Ending Things, and Sorry to Bother You.",
         "title": "[Request] Movies that have wtf ending. Something you wouldn’t expect but changes the whole movie",
-        "upvotes": 653
+        "upvotes": 652
     },
     {
         "content_body": "",
         "created_at": "Tue, 03 Jan 2023 01:56:38 GMT",
-        "num_of_comments": 204,
-        "overall_summary": "\n\nOverall, this conversation reflects the general sentiment 
-            that Netflix is canceling good series too quickly, leaving viewers with no ending 
-            and no chance to gain momentum. Many viewers are frustrated with Netflix's decisions 
-            and are now turning to other streaming services such as HBO Max and Hulu. 
-            They are also disappointed that Netflix is focusing on unscripted reality shows and 
-            teen dramas, rather than adult content. People are also disappointed that the show 1899 
-            was canceled before they had a chance to finish it, as it had a lot of unanswered 
-            questions and potential for a second season. Despite this, some viewers have enjoyed
-            shows like Dark and Mr Robot, and have expressed their disappointment when they were 
-            removed from the platform.",
+        "num_of_comments": 260,
+        "overall_summary": "Reddit users are frustrated with Netflix's decision to
+            cancel a series before it had a chance to gain momentum, leaving viewers
+            with an unfinished story. They feel that Netflix does not understand the
+            streaming audience or their platform, and that other streaming services
+            have better content. People are disappointed and questioning why Netflix
+            would cancel a show that was popular and had potential for future seasons.",
         "title": "[Discussion] 1899 got cancelled for season 2🤧...It just hurta to see like one of the best show I've seen on Netflix is not getting 2nd season🤧",
-        "upvotes": 405
+        "upvotes": 495
     }
 ]
 ```
