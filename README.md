@@ -32,7 +32,7 @@ or complex thread, or for identifying trends or common opinions among Reddit use
 | `CLIENT_SECRET` | **Required**. To be able to access reddit API |
 | `API_KEY` | **Required**. To be able to access OpenAI API |
 
-To get the CLIENT_ID and CLIENT_SECRET from reddit follow this [guide](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps)
+To get the **CLIENT_ID** and **CLIENT_SECRET** from reddit follow this [easy guide](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps)
 
 **Step 2:** We need to [install pipenv](https://pipenv.pypa.io/en/latest/install/)
 
