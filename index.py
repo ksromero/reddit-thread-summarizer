@@ -32,7 +32,7 @@ def openai_create(prompt):
     return response["choices"][0]["text"]
 
 def get_comments_summary_chunk(chunk, summary_queue):
-    prompt = f"""Summarize this in English from a general perspective:\n\n"{" ".join(chunk)}"""
+    prompt = f'Summarize this in English from a general perspective:\n\n"{" ".join(chunk)}'
     response = openai_create(prompt)
     summary_queue.put(response)
 
@@ -81,7 +81,7 @@ def process_submission(submission):
     top = []
     score = submission.score
     id = submission.id
-
+    num_of_comments = submission.num_comments
     if score > 0:
         submission = reddit.submission(id)
         _, overall_summary = get_comments(submission)
@@ -90,9 +90,9 @@ def process_submission(submission):
                 title=submission.title,
                 content_body=submission.selftext,
                 upvotes=score,
-                num_of_comments=submission.num_comments,
+                num_of_comments=num_of_comments,
                 created_at=datetime.datetime.fromtimestamp(submission.created_utc, tz=datetime.timezone.utc),
-                overall_summary=overall_summary
+                overall_summary=overall_summary if num_of_comments > 0 else ''
             )
         )
 

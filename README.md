@@ -4,7 +4,7 @@
 A Reddit thread summarizer is a tool that generates a summary of the main points or 
 themes discussed in a Reddit thread (a discussion forum on the website Reddit). 
 The summarizer may also provide information about the overall sentiment expressed in 
-the thread (including users comment). 
+the thread **(including the users comment)**. 
 This can be useful for quickly getting a sense of the main points of discussion in a long 
 or complex thread, or for identifying trends or common opinions among Reddit users. 
 
