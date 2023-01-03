@@ -72,8 +72,9 @@ def get_comments(thread):
 
     summary = get_comments_summary(comments)
 
+    print(summary)
     overall_summary = openai_create(
-        f""" Create a concise brief summary: \n "{summary}" """
+        f""" In overall point of view give a brief summary of comments \n "{summary}" """
     )
 
     return comments, overall_summary
@@ -135,7 +136,7 @@ def get_subreddit_thread_summary():
     submission = reddit.submission(url=url)
     result = process_submission(submission)
 
-    return jsonify(result)
+    return jsonify(result[0])
 
 if __name__ == '__main__':
     app.run()
