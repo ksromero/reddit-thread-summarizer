@@ -9,8 +9,12 @@ import queue
 import datetime
 from threading import BoundedSemaphore
 from flask import Flask, request, jsonify
+from flask_caching import Cache
 
+cache = Cache(config={'CACHE_TYPE': 'SimpleCache'})
 app = Flask(__name__)
+cache.init_app(app)
+
 load_dotenv()
 openai.api_key = getenv('API_KEY')
 sem = BoundedSemaphore(4) 
@@ -100,6 +104,7 @@ def process_submission(submission):
 
 @app.route('/subreddit-top3-weekly', methods =['POST'])
 @backoff.on_exception(backoff.expo, RateLimitError)
+@cache.cached(timeout=3600)
 def get_subreddit_top3_thread_this_week():
     data = request.get_json()
 
@@ -124,6 +129,7 @@ def get_subreddit_top3_thread_this_week():
 
 @app.route('/thread-summary', methods =['POST'])
 @backoff.on_exception(backoff.expo, RateLimitError)
+@cache.cached(timeout=3600)
 def get_subreddit_thread_summary():
     data = request.get_json()
 

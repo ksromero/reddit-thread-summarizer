@@ -10,6 +10,7 @@ python-dotenv = "*"
 backoff = "*"
 tiktoken = "*"
 flask = "*"
+flask-caching = "*"
 
 [dev-packages]
 
